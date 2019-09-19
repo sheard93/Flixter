@@ -2,14 +2,49 @@
 @import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
 
 .navbar {
-  font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
-  background: image_url('polaroid.png');
+  background: image_url('extra_clean_paper.png');
 }
 
 .navbar-inverse .navbar-brand {
-  color: #11416C;
+  color: #3A4248;
   font-family: 'Domine', serif;
   font-size: 30px;
   font-weight: 150;
+}
+
+.hero {
+  background: image_url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 370px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.frosty {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.frosty h1 {
+  font-family: 'Domine', serif;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: 'Domine', serif;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.btn {
+  border-radius: 0;
+ 
 }

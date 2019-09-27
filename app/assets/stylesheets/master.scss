@@ -13,6 +13,20 @@
   font-weight: 150;
 }
 
+.nav-link {
+  color: #3A4248;
+  font-family: 'Domine', serif;
+}
+
+.nav-item {
+  font-size: 16px;
+}
+
+.nav-course {
+  font-size: 20px;
+  
+}
+
 .hero {
   background: image_url('hero.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -79,4 +93,8 @@ h1, h2, h3, h4, h5, h6, .navbar {
   border-radius: 3px;
   padding: 2px 8px 2px 8px;
   margin: 10px;
+}
+
+.clr {
+  clear: both;
 }

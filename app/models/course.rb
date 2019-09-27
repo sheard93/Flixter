@@ -1,6 +1,8 @@
 class Course < ApplicationRecord
   # Courses can be created by users
   belongs_to :user
+  # Allows for multiple rows in sections table to have the same course id
+  has_many :sections
 
   # Validate that courses have a title, description, and cost
   validates :title, presence: true

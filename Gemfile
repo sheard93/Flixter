@@ -39,10 +39,11 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 gem 'simple_form'
 gem 'devise'
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave'
 gem 'figaro'
 gem "fog-aws"
-gem "mini_magick"
+gem 'mini_magick'
+gem 'carrierwave-aws'
 
 
 group :development, :test do

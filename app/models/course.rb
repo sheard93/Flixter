@@ -3,6 +3,7 @@ class Course < ApplicationRecord
   belongs_to :user
   # Allows for multiple rows in sections table to have the same course id
   has_many :sections
+  has_many :enrollments
 
   mount_uploader :image, ImageUploader
 

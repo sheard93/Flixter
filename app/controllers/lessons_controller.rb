@@ -11,10 +11,10 @@ class LessonsController < ApplicationController
     if current_lesson.user != current_user
       redirect_to courses_url, alert: 'Error Message Here'
     end
+  end
 
   helper_method :current_lesson
   def current_lesson
     @current_lesson ||= Lesson.find(params[:id])
   end
-
 end

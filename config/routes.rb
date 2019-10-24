@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resource :dashboard, only: [:show]
   # hook up routes so the localhost:3030 takes us to the landing page
   root 'static_pages#index'
+  get 'privacy', to: 'static_pages#privacy'
   resources :courses, only: [:index, :show] do
     resources :enrollments, only: :create
   end
